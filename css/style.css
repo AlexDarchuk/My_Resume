@@ -1,4 +1,174 @@
-* {
+body {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    border: 40px solid #f5f7fa;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main aside.main__blog {
+    width: 33%;
+    background: #1E2939;
+    padding-top: 40px;
+}
+.main aside.main__blog .main__contacts h3 {
+    font-size: 22px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 42px 0 15px 40px;
+}
+
+.main aside.main__blog .main__contacts .contacts__tel a {
+    text-decoration: none;
+    font-size: 14px;
+    color:#ffffff;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.contacts__tel span {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 40px;
+    padding-right: 10px;
+}
+.main__contacts .contacts__mail a {
+    text-decoration: underline;
+    font-size: 14px;
+    color:#ffffff;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.contacts__mail span {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 40px;
+    padding-right: 10px;
+}
+.main__tech h3,
+.main__soft h3 {
+    font-size: 22px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 54px 0 20px 40px;
+}
+.main__tech li,
+.main__soft li {
+    margin-left: 15px;
+    color: #ff6b08;
+    padding-bottom: 10px;
+}
+.main__tech li span,
+.main__soft li span {
+    color: #fff;
+}
+
+.main aside.main__blog img {
+    width: 100%;
+}
+
+.main .main__info {
+  width: 67%;
+  padding-top: 105px;
+  padding-left: 85px;
+  background: #fff;
+}
+.main .main__info h2 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+}
+.main .main__info h1 {
+    font-size: 45px;
+    line-height: 89px;
+    color: #000000;
+    font-weight: 700;
+    margin: 0;
+}
+.main .main__info p.info__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    font-weight: 400;
+}
+.main .main__info h3.project__text{
+    margin-top: 48px;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.main .main__info ol {
+    font-weight: 700;
+}
+.main .main__info a{ text-decoration: none;}
+.main .main__info li span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.main .main__info li span.spacing { letter-spacing: 4px;}
+.main .main__info .info__work h3 {
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 39px;
+}
+.main .main__info .info__work .work__free h4 {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 14px;
+}
+.main .main__info .info__work .work__free h4 span { color: #ff6b08;}
+.main .main__info .info__work .work__free p {
+    color:#A8A8A8;
+    font-size:12px;
+}
+.main .main__info .info__work .work__free p span {
+    color: #000;
+    font-weight: 700;
+}
+.main .main__info .info__work .work__free ul { padding-left: 17px;}
+.main .main__info .info__work .work__free li {
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    font-weight: 400;
+}
+.main .main__info .info__work .education h3 { margin-top: 83px;}
+.main .main__info .info__work .education h4 {
+    font-size: 16px;
+    color: #ff6b08;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.main .main__info .info__work .education h5 { 
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.main .main__info .info__work .education p {
+    font-size: 12px;
+    color: #a8a8a8;
+    font-weight: 400;
+    margin-bottom: 160px;
+}
+.main .main__info .info__work .education p span {
+    color: #000;
+    font-weight: 700;
 }
